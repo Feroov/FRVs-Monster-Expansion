@@ -1,0 +1,19 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="frv"
+version="1.18.1" #mandatory
+displayName="FRV's Monster Expansion'"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/" #optional
+logoFile="frvtools.png" #optional
+credits=""
+authors="FRV (a.k.a Feroov)"
+description='''
+FRV's Monster Expansion adds a whole variety of new monsters to the game!
+'''
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"

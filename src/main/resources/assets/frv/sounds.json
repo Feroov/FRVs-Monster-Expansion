@@ -1,0 +1,10 @@
+{
+  "croaker_ambient": {"category": "passive", "sounds": [{
+    "name": "frv:croaker_ambient"}, {
+    "name": "frv:croaker_ambient2"}, {
+    "name": "frv:croaker_ambient3"}], "subtitle": "frv.croaker_ambient"
+  },
+
+
+  "corrupt_fire": {"category": "misc", "sounds": [{"name": "frv:corrupt_fire"}], "subtitle": "frv.corrupt_fire"}
+}
