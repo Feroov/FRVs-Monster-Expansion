@@ -1,6 +1,8 @@
 package com.feroov.frv.events;
 
 import com.feroov.frv.Frv;
+import com.feroov.frv.entities.hostile.MutatedCow;
+import com.feroov.frv.init.ModEntityTypes;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -13,6 +15,6 @@ public class ModEvents
     public static void registerAttributes(EntityAttributeCreationEvent event)
     {
         /** Hostile **/
-       // event.put(ModEntityTypes.PIRATE_CAPTAIN.get(), PirateCaptain.createAttributes().build());
+        event.put(ModEntityTypes.MUTATED_COW.get(), MutatedCow.createAttributes().build());
     }
 }

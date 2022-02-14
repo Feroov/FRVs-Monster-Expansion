@@ -30,7 +30,7 @@ public class ModItems
 
 
     /**********************************  (MOBS EGGS) **********************************************/
-   // public static final RegistryObject<ModSpawnEggItem> CROAKER_SPAWN_EGG = ITEMS.register("croaker_spawn_egg", () -> new ModSpawnEggItem(ModEntityTypes.CROAKER, 0X087D62, 0X087A62, new Item.Properties().tab(ModItemGroup.FRV_TAB_EGGS)));
+    public static final RegistryObject<ModSpawnEggItem> MUTATED_COW_SPAWN_EGG = ITEMS.register("mutated_cow_spawn_egg", () -> new ModSpawnEggItem(ModEntityTypes.MUTATED_COW, 0X087D62, 0X087A62, new Item.Properties().tab(ModItemGroup.FRV_TAB_EGGS)));
     /***********************************************************************************************/
 
 

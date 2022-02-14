@@ -1,5 +1,12 @@
 {
   "itemGroup.frvMisc": "FRV's Monster Expansion - Weapons",
   "itemGroup.frvEgg": "FRV's Monster Expansion - Mobs",
+
+
+  "item.frv.mutated_cow_spawn_egg": "Mutated Cow Spawn Egg",
+  "entity.frv.mutated_cow": "Mutated Cow",
+
+
+
   "item.frv.admin_sword": "\u00A74\u00A7lAdmin Sword"
 }
