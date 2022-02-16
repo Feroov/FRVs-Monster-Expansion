@@ -2,6 +2,7 @@ package com.feroov.frv.events;
 
 import com.feroov.frv.Frv;
 import com.feroov.frv.entities.hostile.MutatedCow;
+import com.feroov.frv.entities.hostile.WallOfFlesh;
 import com.feroov.frv.init.ModEntityTypes;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,5 +17,6 @@ public class ModEvents
     {
         /** Hostile **/
         event.put(ModEntityTypes.MUTATED_COW.get(), MutatedCow.createAttributes().build());
+        event.put(ModEntityTypes.WALL_OF_FLESH.get(), WallOfFlesh.createAttributes().build());
     }
 }

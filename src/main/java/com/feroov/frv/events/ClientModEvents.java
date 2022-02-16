@@ -2,6 +2,7 @@ package com.feroov.frv.events;
 
 import com.feroov.frv.Frv;
 import com.feroov.frv.entities.render.MutatedCowRenderer;
+import com.feroov.frv.entities.render.WallOfFleshRenderer;
 import com.feroov.frv.init.ModEntityTypes;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -31,6 +32,7 @@ public class ClientModEvents
 
         /** Hostile **/
         event.registerEntityRenderer(ModEntityTypes.MUTATED_COW.get(), MutatedCowRenderer::new);
+        event.registerEntityRenderer(ModEntityTypes.WALL_OF_FLESH.get(), WallOfFleshRenderer::new);
 
     }
 }

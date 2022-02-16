@@ -1,8 +1,11 @@
 package com.feroov.frv.world.gen;
 
 import com.feroov.frv.Frv;
+import com.feroov.frv.init.ModEntityTypes;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,11 +28,11 @@ public class ModEntityEvents
         Biome biome = ForgeRegistries.BIOMES.getValue(event.getName());
         if (biome == null)
             return;
-        /*if (biome.getBiomeCategory() == Biome.BiomeCategory.SWAMP)
+        if (biome.getBiomeCategory() == Biome.BiomeCategory.NETHER)
             event.getSpawns().getSpawner(MobCategory.CREATURE)
-                    .add(new MobSpawnSettings.SpawnerData(ModEntityTypes.CROAKER.get(), 200, 1, 3));
+                    .add(new MobSpawnSettings.SpawnerData(ModEntityTypes.WALL_OF_FLESH.get(), 200, 1, 1));
 
-         */
+
 
     }
     /***************************************************************************/
